@@ -8,6 +8,7 @@ import { AppCardComponent } from './common/app-card/app-card.component';
 import { ConnectPageComponent } from './connect-page/connect-page.component';
 
 import { AppRoutingModule } from './app-routing.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppCardComponent,
     ConnectPageComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent]
 })
